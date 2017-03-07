@@ -1,0 +1,11 @@
+{
+    "name": "lpeng/ueditor-for-php",
+    "description": "UMUEditor for PHP",
+    "authors": [
+        {
+            "name": "lpeng",
+            "email": "jintangbang@qq.com"
+        }
+    ],
+    "require": {}
+}
