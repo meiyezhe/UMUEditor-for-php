@@ -1,11 +1,17 @@
 {
-    "name": "lpeng/ueditor-for-php",
-    "description": "UMUEditor for PHP",
+    "name": "lpeng/editor-for-php",
+    "description": "liaopeng umueditor for php",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "lpeng",
+            "name": "liaopeng",
             "email": "jintangbang@qq.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Editor\\": "src/Editor"}
+    }
 }
