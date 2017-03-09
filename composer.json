@@ -1,6 +1,6 @@
 {
     "name": "lpeng/editor-for-php",
-    "description": "liaopeng umueditor for php",
+    "description": "liaopeng editor for php",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,8 +9,8 @@
             "email": "jintangbang@qq.com"
         }
     ],
-    "require": {},
     "minimum-stability": "stable",
+    "require": {},
     "autoload": {
         "psr-4": {"Editor\\": "src/Editor"}
     }
