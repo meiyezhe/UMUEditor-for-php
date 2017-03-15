@@ -2,7 +2,7 @@
 # golang:onbuild automatically copies the package source, 
 # fetches the application dependencies, builds the program, 
 # and configures it to run on startup 
-FROM php:onbuild
+FROM golang:onbuild
 LABEL Name=editor-for-php Version=0.0.1 
 EXPOSE 8080
 
